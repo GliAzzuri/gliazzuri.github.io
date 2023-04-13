@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang ='en'>
+    <head>
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="../styles/signup.css">
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+        <!-- <script>$(function() { alert('hello') });</script> -->
+        
+        <title>Napoli | Signup</title>
+        <nav>
+            <div class="topnav">
+                <a href="../../index.html">
+                    <div class="logo">
+                        <img src="../images/napoli.png" width="15px" height="14px">
+                    </div>
+                </a>  
+                <a href="../../index.html">Home</a>
+                <a href="players.html">Players</a> 
+                <a href="tickets.html">Tickets</a>            
+                <a href="shop.html">Shop</a>
+                <a href="news.html">News</a>
+                <div class="nav-right">
+                    <a class="open-button" onclick="openForm()">Login</a>
+                    <div class="form-popup" id="loginform">
+                        <form action="../../index.html" class="form-container">
+                            <header>Login</header>
+                            <input type="email" placeholder="Email" class="input" required>
+                            <input type="password" placeholder="Password" class="password" required>
+                            <div id="form-link">
+                                <!-- <a href="#" class="forgot-pass">Forgot password?</a> -->
+                            </div>
+                            <button type="submit" class="btn" onclick="login()">Login</button>
+                            <div id="form-link">
+                                <span>Don't have an account? </span> <a href="signup.html" onclick="window.location.href = 'signup.html';" class="link signup-link">Signup</a>
+                            </div>
+                            <!-- <button type="button" class="cancel" onclick="closeForm()">Close</button> -->
+                        </form>
+                    </div> 
+                    <a class="active" href="signup.html">Sign Up</a>
+                    
+                        
+                    <!-- <i class="fa fa-shopping-cart"></i> -->
+                </div>
+            </div>
+        </nav>
+    </head>
+    <body>
+        <main>
+            <center>
+                <section class="signup">
+                    <div class="form signup" >
+                        <div class="form-content">
+                            <header>Signup</header>
+                            <form action="../../index.html">
+                                <div class="field input-field">
+                                    <input type="email" placeholder="Email" class="input" required>
+                                </div>
+        
+                                <div class="field input-field">
+                                    <input type="password" placeholder="Create password" class="password" required>
+                                </div>
+        
+                                <div class="field input-field">
+                                    <input type="password" placeholder="Confirm password" class="password" required>
+                                </div>
+        
+                                <div class="field button-field">
+                                    <button onclick="login()">Signup</button>
+                                </div>
+                            </form>
+        
+                            <div class="form-link">
+                                <span>Already have an account? <a href="" onclick="openForm()" class="link login-link">Login</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </center>s
+        </main>
+
+        
+        <script src="../scripts/scripts.js"></script>
+    </body>
+
+    <footer>
+        <p>SSC Napoli &copy; 2023</p>
+        <p>, <a href="https://sscnapoli.it/en/privacy-policy/" target="_blank">Privacy Policy</a></p>
+    </footer>
+ 
+</html>
+    
