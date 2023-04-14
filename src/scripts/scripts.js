@@ -123,6 +123,10 @@ function redir() {
     window.location.href = 'shop.html';
 }
 
+function redir_pay() {
+    window.location.href = 'tickets.html';
+}
+
 
 
 
