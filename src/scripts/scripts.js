@@ -127,14 +127,6 @@ function redir_pay() {
     window.location.href = 'tickets.html';
 }
 
-
-
-
-
-
-
-
-
 // function tickt() {
 //     var selected = document.getElementById("ticket_group");
 //     if (selected.value == 'vip') {
