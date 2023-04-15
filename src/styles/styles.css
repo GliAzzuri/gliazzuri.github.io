@@ -346,7 +346,7 @@ main {
 }
 
 #item_coach {
-    height: 65%;
+    height: 60%;
     margin-top: 5px;
     margin-left: 5px;
     /* background-color: lightgrey; */
@@ -400,7 +400,7 @@ main {
 }
 
 #items {
-    height: 65%;
+    height: 70%;
     margin-right: 60px;
     margin-top: 15px;
     margin-left: 5px;
@@ -426,7 +426,7 @@ main {
     cursor: pointer;
 }
 
-#flex_container_players  input {
+#flex_container_players input {
     /* align-self: flex-end; */
     align-items: center;
     margin: 0px;
@@ -745,17 +745,20 @@ footer a{
     justify-content: flex-start;
     align-items: center;
     width: 9vw;
-    height: 26%;
+    height: 29%;
     font-size: 14px;
     color: white;
+    /* background-color: grey; */
     /* border-radius: 50%; */
     /* background-color: lightgrey; */
     /* border: 2px solid black; */
 }
 
 .player img {
+    width: 106%;
+    height:100%;
     margin:2px;
-    margin-bottom: -5px;
+    margin-bottom: -50px;
 }
 
 .p1 { /*Goalie Meret */
@@ -1245,16 +1248,19 @@ footer a{
     flex-direction: column;
     text-align: center;
     /* background-color: darkgrey; */
-    width: 260px;
+    /* width: 260px; */
     margin: 8px;
     margin-right: 25px;
     margin-top: auto;
     /* margin: 5px; */
 }
 
-.shop_container2 s {
-    
+.items_shop img{
+    width: 51%;
+    height: 64%;
 }
+
+
 
 .shop_container2 span {
     color: yellow;
@@ -1572,7 +1578,8 @@ footer a{
 #news_flex2 img {
     margin-right: 20px;
     /* margin-left: 5px; */
-    width:max-content;
+    width:40%;
+    height: 60%;
     margin-bottom: 10px;
 }
 
