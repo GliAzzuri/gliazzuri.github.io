@@ -358,6 +358,10 @@ footer a{
     color: rgb(41, 57, 81);
 }
 
+footer a:hover{
+    color: white;
+}
+
 
 /* .line{
     position: relative;
