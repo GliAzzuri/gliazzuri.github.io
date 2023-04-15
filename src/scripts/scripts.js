@@ -212,7 +212,7 @@ links.forEach(link => {
 
 //left and right move for shop items
 function right_shop () {
-  document.getElementById('items_flex_container_shop').scrollLeft += 332;
+  document.getElementById('items_flex_container_shop').scrollLeft += 325;
 };
 function left_shop () {
   document.getElementById('items_flex_container_shop').scrollLeft -= 355;
