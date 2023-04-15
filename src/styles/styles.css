@@ -752,6 +752,10 @@ footer a{
     color: rgb(41, 57, 81);
 }
 
+footer a:hover{
+    color: white;
+}
+
 /*Players page css start */
 #players_bg {
     /* background-color: lightblue;  */
@@ -814,16 +818,16 @@ footer a{
 }
 
 .player img {
-    width: 106%;
-    height:100%;
+    /* width: 106%;
+    height:100%; */
     margin:2px;
     margin-bottom: -5px;
 }
 
 .player:hover {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2); 
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25); 
 }
 
 .p1 { /*Goalie Meret */
