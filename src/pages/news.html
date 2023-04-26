@@ -5,10 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="../styles/styles.css">
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-            <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-            <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
-        <!-- <script>$(function() { alert('hello') });</script> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Napoli | News</title>
 
@@ -26,7 +23,6 @@
                 <a class="active" href="news.html">News</a>
                 <div id="nav-right">
                     <a href="signup.html">Sign Up</a>
-
                 </div>
             </div>
         </nav>
@@ -378,6 +374,7 @@
                 </div>
             </section>
 
+            <!-- <script src="../scripts/scripts.js"></script> -->
             <script>
                 const links = document.querySelectorAll('a');
                 links.forEach(link => {
@@ -394,14 +391,34 @@
 
                 const navbarLinks = document.querySelectorAll('.navbar a');
                 navbarLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    
-                    const address = this.getAttribute('href'); 
-                    window.location.href = address;
+                    link.addEventListener('click', function(e) {
+                        const address = this.getAttribute('href'); 
+                        window.location.href = address;
+                    });
                 });
-});
+
+                function login_status() {
+                    var loggedIn = localStorage.getItem('loggedIn');
+                    if (loggedIn === 'true') {
+                        document.getElementById('nav-right').innerHTML = '<a href="" onclick="logout()">Logout</a>';
+                    }
+                }
+                function logout() {
+                    localStorage.setItem('loggedIn', 'false');
+                    document.getElementById('nav-right').innerHTML = '<a href="src/pages/signup.html">Sign Up</a>';
+                    window.location.href = 'index.html';
+                }
+
+                function login() {
+                    localStorage.setItem('loggedIn', 'true');
+                    window.location.href = '../../index.html';
+                }
+
+                function login_redirect () {
+                    login_status();
+                }
+
             </script>
-            <script src="../scripts/scripts.js"></script>
         </main>
     </body>
 
