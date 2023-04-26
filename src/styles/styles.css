@@ -34,7 +34,7 @@ main {
 } */
 
 .topnav {
-    background-image:linear-gradient(to bottom,  rgb(41, 57, 81),rgb(45, 152, 209));
+    /* background-image:linear-gradient(to bottom,  rgb(41, 57, 81),rgb(45, 152, 209)); */
     overflow: auto;
     /* border-radius: 4px; */
     font-family:sans-serif;
