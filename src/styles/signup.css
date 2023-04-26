@@ -15,18 +15,18 @@ body {
 }
 
 .topnav {
-    /* background-color: #cecece; */
-    /* background-image:linear-gradient(to left,  rgb(41, 57, 81),rgb(45, 152, 209)); */
-    border: 1px solid white;
+    background-image:linear-gradient(to bottom,  rgb(41, 57, 81),rgb(45, 152, 209));
     overflow: auto;
     /* border-radius: 4px; */
     font-family:sans-serif;
     position:static;
     margin: 3px;
+    margin-left: 5px;
     margin-bottom: 4px;
     border-radius: 3px;
+    border: 1px solid white;
     /* margin-bottom: 10px; */
-    /* opacity: 0.95; */
+    opacity: 0.90;
     /* scroll-behavior: smooth; */
 }
 
